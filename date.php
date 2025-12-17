@@ -15,7 +15,7 @@ $formatter = new IntlDateFormatter(
     IntlDateFormatter::NONE,
     'Asia/Phnom_Penh',
     IntlDateFormatter::GREGORIAN,
-    "EEEE 'ទី'dd 'ខែ'MMMM yyyy"
+    "ថ្ថៃEEEE 'ទី'dd 'ខែ'MMMM ឆ្នាំyyyy"
 );
 
 $khmerDate = $formatter->format($date);
